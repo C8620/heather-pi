@@ -1,0 +1,8 @@
+1. $> sudo apt update
+
+2. $> sudo crontab -e
+    -> add line "* * * * *  sudo bash /home/pi/trigger.sh"
+
+3. $> cd /home/pi/
+    $> nano upload.sh
+    -> update FTP criditionals.
